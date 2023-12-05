@@ -42,6 +42,7 @@ To avoid errors, import the data in the same order as the corresponding tables g
   - Tables are correctly related using Foreign Keys (10 points)
   - Correctly uses NOT NULL condition on necessary columns (10 points)
   - Accurately defines value length for columns (10 points)
+![https://github.com/michelesanctis/sql-challenge/blob/main/Images/EAD_sql_challenge.png?raw=true](image_url)
 ### Data Analysis (20 points)
   - List the employee number, last name, first name, sex, and salary of each employee (2 points)
   - List the first name, last name, and hire date for the employees who were hired in 1986 (2 points)
