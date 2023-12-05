@@ -1,0 +1,46 @@
+departments as D
+-
+dept_no VARCHAR(5) PK
+dept_name VARCHAR(35)
+
+
+dept_employees as DE
+-
+emp_no INT PK FK - employees.emp_no
+dept_no VARCHAR(5) PK FK - departments.dept_no
+
+
+dept_manager as DM
+-
+dept_no VARCHAR(5) PK FK - departments.dept_no
+emp_no INT PK FK - employees.emp_no
+
+
+employees as E
+-
+emp_no INT PK
+emp_title_id VARCHAR(5) FK - titles.title_id
+birth_date TIMESTAMP
+first_name VARCHAR(15)
+last_name VARCHAR(50)
+sex VARCHAR(1)
+hire_date TIMESTAMP
+
+
+salaries as S
+-
+emp_no INT PK FK - employees.emp_no
+salary INT
+
+
+titles as T
+-
+title_id VARCHAR(5) PK
+title VARCHAR(25)
+
+
+
+
+
+
+
