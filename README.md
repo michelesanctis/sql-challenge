@@ -1,4 +1,4 @@
-# sql-challenge
+-9gvb yjk# sql-challenge
 Module-09
 
 ## Background
@@ -34,6 +34,9 @@ To avoid errors, import the data in the same order as the corresponding tables g
 ## Requirements
 ### Data Modeling (10 points)
   - Entity Relationship Diagram is included or table schemas provided for all tables (10 points)
+
+    ![EAD](https://github.com/michelesanctis/sql-challenge/blob/main/Images/EAD_sql_challenge.png?raw=true)
+    
 ### Data Engineering (70 points)
   - All required columns are defined for each table (10 points)
   - Columns are set to the correct data type (10 points)
@@ -42,7 +45,8 @@ To avoid errors, import the data in the same order as the corresponding tables g
   - Tables are correctly related using Foreign Keys (10 points)
   - Correctly uses NOT NULL condition on necessary columns (10 points)
   - Accurately defines value length for columns (10 points)
-    ![EAD](https://github.com/michelesanctis/sql-challenge/blob/main/Images/EAD_sql_challenge.png?raw=true)
+
+    
 ### Data Analysis (20 points)
   - List the employee number, last name, first name, sex, and salary of each employee (2 points)
   - List the first name, last name, and hire date for the employees who were hired in 1986 (2 points)
