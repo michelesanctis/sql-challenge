@@ -39,7 +39,7 @@ To avoid errors, import the data in the same order as the corresponding tables g
     
 ### Data Engineering (70 points)
 
-####***Schema_QuickDBD.sql***
+***Schema_QuickDBD.sql***
     
   - All required columns are defined for each table (10 points)
   - Columns are set to the correct data type (10 points)
@@ -52,7 +52,7 @@ To avoid errors, import the data in the same order as the corresponding tables g
     
 ### Data Analysis (20 points)
 
-####***queries.sql***
+***queries.sql***
   
   - List the employee number, last name, first name, sex, and salary of each employee (2 points)
   - List the first name, last name, and hire date for the employees who were hired in 1986 (2 points)
